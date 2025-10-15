@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+
+    int torre =1, Bispo = 1,rainha;
+
+    do {
+        printf(" Torre Direita \n");
+        torre++;
+        }
+     while (torre<=5);
+
+
+    while(Bispo != 6)  {
+        printf(" Bispo Cima/Direita \n");
+        Bispo++;
+    }
+
+    for(rainha=1; rainha <=8; rainha++) {
+        printf(" Rainha Esquerda \n");
+    }
+
+    return 0;
+    }
